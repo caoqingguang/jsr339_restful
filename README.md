@@ -1,19 +1,19 @@
 # jsr339_restful
 restful for java
 
-## 技术
+## refs
 > **servlet 3.0**  <br>
 > jsr339 **JAX-RS 2.0**  <br>
 
-项目启动后访问如下路径
+<font size=5>如下三个**demo**</font>
 
 ### demo1 请求文本数据
-*get*:/hello/text
+*get url*:/hello/text  <br>
 rep:hello world
 
 ### demo2请求json数据
-*get*:/hello/json
-rep:
+*get url*:/hello/json  <br>
+rep data:
 ```
 {
   code: 200,
@@ -27,7 +27,7 @@ rep:
 
 
 ### demo2请求json数据
-*get*:/hello/args?name=zhangsan&age=18
+*get*:/hello/args?name=zhangsan&age=18  <br>
 rep:
 ```
 {
