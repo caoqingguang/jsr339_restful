@@ -29,8 +29,7 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.0.1</version>
-            <scope>test</scope>
-            <!--<scope>provided</scope>-->
+            <scope>provided</scope>
         </dependency>
     </dependencies>
     <build>
@@ -50,6 +49,6 @@
     </build>
 
     <properties>
-        <jdk-version>5.4.1</jdk-version>
+        <jdk-version>1.8</jdk-version>
     </properties>
 </project>
