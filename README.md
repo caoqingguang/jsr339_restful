@@ -26,7 +26,7 @@ rep data:
 ```
 
 
-### demo2请求json数据
+### demo3 带参数 请求json数据
 *get*:/hello/args?name=zhangsan&age=18  <br>
 rep:
 ```
